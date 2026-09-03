@@ -1,0 +1,10 @@
+name: Frist Github Action
+on:
+  workflow_dispatch:
+jobs:
+  fitst-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print welcome message
+        run: "welcome to Data science"
+          
